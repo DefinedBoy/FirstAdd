@@ -15,7 +15,7 @@ Set TOKEN [line 9]
 ```
 # Start the bot!
 
-To start the bot, run `bot.py`. To stop the bot, press Control <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
+To start the bot, run `python bot.py`. To stop the bot, press Control <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
 
 ### About
 
