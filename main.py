@@ -11,7 +11,7 @@ bot = telebot.TeleBot(token="448331219:AAEuIc_wIiU6uQ12L7ESK84HA8XVrg4yBwg", ski
 key = bot.get_me().username + "|"
 
 def panel(chat_id):
-  cid = chat_id
+	cid = chat_id
 	status = redis.get(key + str(cid) + ":status") or "off"
 	show = str(redis.get(key+ str(cid) + ":max_add") or 3)
 	markup = types.InlineKeyboardMarkup()
