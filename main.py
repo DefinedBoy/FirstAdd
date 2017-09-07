@@ -36,7 +36,6 @@ def _add_(m):
 	cid = m.chat.id
 	bot_id = bot.get_me().id
 	if m.new_chat_member.id == bot_id:
-		redis.sadd(key + "groups", cid)
 		text = "با دکمه های زیر حد اکثر تعداد دعوت ممبر ها را تایین کنید🎈😁"
 		bot.send_message(cid, text, reply_markup=panel(cid))
 
