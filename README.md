@@ -8,7 +8,8 @@
 # Let's install the bot.
 pip install pyTelegramBotAPI --upgrade
 pip install telebot --upgrade
-git clone https://github.com/DefinedBoy/FirstAdd
+pip install redis-cli
+git clone https://github.com/DefinedBoy/FirstAdd.git
 cd FirstAdd
 Set TOKEN [line 9]
 ```
