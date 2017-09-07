@@ -6,7 +6,8 @@ import telebot
 from telebot import types, util
 sys.setdefaultencoding("utf-8")
 redis = redis.StrictRedis(host="localhost", port=6379, db=0, decode_responses=True)
-bot = telebot.TeleBot(token="448331219:AAEuIc_wIiU6uQ12L7ESK84HA8XVrg4yBwg", skip_pending=True)
+token = "**Here***"
+bot = telebot.TeleBot(token=token, skip_pending=True)
 #---First add :D
 key = bot.get_me().username + "|"
 
