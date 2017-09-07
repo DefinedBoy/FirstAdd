@@ -17,8 +17,6 @@ Set TOKEN [line 9]
 
 To start the bot, run `./launch.sh`. To stop the bot, press Control <kbd>CTRL</kbd>+<kbd>C</kbd> twice.
 
-You may also start the bot with `python bot.py`, however it will not restart automatically.
-
 ### About
 
 Programmer: [DefinedBoy](https://t.me/DefinedBoy)
